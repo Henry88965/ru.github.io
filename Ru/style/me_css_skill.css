@@ -1,0 +1,33 @@
+@charset "UFT-8";
+body{  background: #c9e2ea; }
+
+#home:hover{background: #FFFFFF;}
+#skill:hover{background: #FFFFFF;}
+#work:hover{background: #FFFFFF;}
+
+
+#summary{
+    font-size: 34px;
+    padding-top: 5%;
+}
+
+#coding{
+    font-size: 26px;
+  
+    padding-left: 20%;
+    vertical-align: top;/*至上對其*/
+   
+}
+#sport{
+    font-size: 26px;
+
+    vertical-align: top;
+    
+}
+td {
+    width: 50%;   
+}
+#intro{
+    padding-top: 57px;
+  
+}
