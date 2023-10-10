@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.logo {
+    width: 80px;
+    margin-top: -15px;
+    border-radius: 20%;
+}
+
+.had {
+    display: flex;
+    /*上下變左右放*/
+    justify-content: space-between;
+    background-color: #c2abd3;
+    height: 80px;
+    padding: 1px;
+}
+
+.ft {
+    margin: 0;
+    padding: 0 5%;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    /*超連結不要底線*/
+}
+
+.navcs {
+    padding-top: 30px;
+    display: flex;
+    /*上下變左右放*/
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    float: right;
+}
+
+.navcs li {
+    margin-left: 30px;
+}
+
+.navcs a {
+    display: inline-block;
+    color: #704690;
+}
+
+.navcs a:hover {
+    color: #e3f0ab;
+}
+
+.product_area {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product_card {
+    flex-direction: column;
+    width: 200px;
+    float: left;
+
+}
+
+.item_area {
+    flex-direction: column;
+    width: 70%;
+}
+
+.more {
+    width: 50%;
+    text-align: left;
+}
+
+.right {
+    width: 35%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.X1 {
+    margin-left: 5%;
+}
+
+.all {
+    display: flex;
+}
+
+.cart {
+    text-align: left;
+    width: 30%;
+    margin-left: 1%;
+}
+button{
+    border-radius: 8px;
+    background: #000000;
+    color: #ffffff;
+}
+input {
+    border:none; 
+    -webkit-box-shadow:0 0 0 1000px #c2abd3 inset;
+}
